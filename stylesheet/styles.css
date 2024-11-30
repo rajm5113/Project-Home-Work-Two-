@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -10px; /*Hides the link off-screen by default*/
+    left:0;
+    background: #000;
+    color:#fff;
+    padding: 10px;
+    z-index:100;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 0;/*Makes the link visible when focused */
+}
+
+
+header{
+    background-color: #3fca6e;
+}
+nav{
+    display: inline-block;
+    width: 80%
+    
+}
+nav img {
+    width:10%/*set image width to approximately 10*/
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,40%);/*Two columns, each 40% wide*/
+    justify-content: space-between;/*Adjust horizontal spacing*/
+    align-items: center; /*Alian items vertically*/
+    row-gap: 20px;/* Add spacing between rows*/
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;/*Allow items to wrap onto multiple lines */
+    justify-content: space-around;/*Distribute items evenly*/
+}
+
+.grid img{
+    width:100%;
+}
+main{
+    background-color:#ae5656;
+    font-size:18px;
+}
+footer{
+    background-color: #0c0b0b;
+    color:#f4f4f4;
+}
+li{
+    display: inline-block;
+    width:100px;
+}
+h1{
+    text-align: center;
+    font-family:'Georgia',serif;
+    color:#333;
+}
+p{
+    line-height:1.6;
+}
+
+/*
+li {
+  /* Existing styles for list items */
+  /* Example: padding: 10px; */
+
